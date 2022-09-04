@@ -92,8 +92,12 @@ async function decode() {
     <p>Accepts QR Code image and OTP string (otpauth-migration://offline?data=...)</p>
     <p>Extraction logic is based on <a href="https://github.com/krissrex/google-authenticator-exporter" target="_blank"
         class="font-medium text-sky-600 underline">Kristian
-        Rekstad's Node.js version</a>.</p>
-    <p class="italic"><span class="underline">Note</span>: Save to PDF option is with poor formatting. I couldn't find
+        Rekstad's Node.js version</a>.
+      <span class="font-medium text-emerald-600">The entire process is done client-side.</span>
+    </p>
+    <p class="italic">
+      <span class="underline">Note</span>:
+      Save to PDF option is with poor formatting. I couldn't find
       any conversion libraries which
       support styling.
     </p>
